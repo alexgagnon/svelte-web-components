@@ -8,6 +8,13 @@
 
   $: computedName = name || id;
 
+  // example of properties required:
+  let _hello;
+  static formAssociated = true
+  get hello() {return hello;}
+  set hello(value) {_hello = value;}
+
+
   // TODO: this needs to be the output, somehow?
   // class Input extends HTMLElement {
   //   static formAssociated = true;
@@ -37,7 +44,6 @@
   //   checkValidity() { return this.internals_.checkValidity(); }
   //   reportValidity() {return this.internals_.reportValidity(); }
   // }
-
 </script>
 
 <div class='form-group'>
