@@ -10,8 +10,8 @@
 
   // example of properties required:
   let _hello;
-  static formAssociated = true
-  get hello() {return hello;}
+  // static formAssociated = true
+  get hello() {return _hello;}
   set hello(value) {_hello = value;}
 
 
